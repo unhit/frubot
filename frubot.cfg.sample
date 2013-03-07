@@ -1,0 +1,45 @@
+; frubot config file
+; remember to uncomment and set ALL options
+
+[core]
+; log to the bot as admin using this password
+;admin = 
+; log to the bot as mod using this password
+;mod = 
+
+[irc]
+;server = port80b.se.quakenet.org
+;channel = #yourchannel
+;nick = YourNick
+
+[urt]
+; displayed only on bot reconnect
+;name = Your server name
+; urt server ip
+;ip = 127.0.0.1
+;port = 27960
+; rcon password
+;rcon = 
+; path to the games.log, usually $HOME/.q3a/q3ut4/games.log
+;log = 
+
+[b3]
+; b3 database credentials
+;host = 127.0.0.1
+;user =
+;pass =
+;name =
+
+[ts3]
+; ts3 support
+enabled = 0
+;host = 
+;port = 10011
+;user = 
+;pass = 
+
+[geo]
+; geolocalization support
+enabled = 0
+; api key for http://ipinfodb.com
+;apikey = 
